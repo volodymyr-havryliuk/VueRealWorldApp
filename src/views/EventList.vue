@@ -2,6 +2,7 @@
     <div>
         <h1>Events Listing</h1>
         <EventCard/>
+        <BaseIcon/>
     </div>
 </template>
 
@@ -9,6 +10,7 @@
     import EventCard from "@/components/EventCard.vue";
 
     export default {
+        name: "EventList",
         components: {
             EventCard
         }
